@@ -99,7 +99,7 @@ If this is not the case, then something went wrong. If you see the text like abo
 
 Okay great, SDL is installed, Code::Blocks is configured, you know how to get an SDL project created and compiled, we're good to move on to something a little more exciting. We are going to take a small step away from the code and have a look at some pretty pictures to help you understand what we are going to be doing over the next few sections of the article.
 
-![The game loop](https://www.gamedev.net/uploads/monthly_05_2013/ccs-137814-0-70750100-1369527491.png)
+![The game loop](https://github.com/RichardMarks/game-programming-snake/blob/master/content/ccs-137814-0-70750100-1369527491.png?raw=true)
 
 This is called the game-loop. Every single game has something like this inside of it. From Pong to Halo to Farmville to World of Warcraft. (Disclaimer: These games and their names are copyright and/or trademarks of their respective owners.) **Every Single Game Has A Game Loop** of some kind. This fun little loop is what keeps the game going. If nothing ever looped, the game would start, and then they would just about immediately end. That would be really boring. So let's see what exactly is going on here. First we do a little housekeeping, like handling events and what-not, next we update the game world, finally we render the game world, and the whole thing repeats until something tells it not to.
 
@@ -247,7 +247,7 @@ SDL_Quit();
 
 And we are done! Now go ahead and build and run the project. You should see a big blue box on a black screen. Press the ESC key on your keyboard and the window should close.
 
-![Behold the Big Blue Box](https://www.gamedev.net/uploads/monthly_05_2013/ccs-137814-0-25440700-1369527491.png)
+![Behold the Big Blue Box](https://github.com/RichardMarks/game-programming-snake/blob/master/content/ccs-137814-0-25440700-1369527491.png?raw=true)
 
 > **UPDATE** Here is the full source code for Big Blue Box
 
@@ -1053,7 +1053,7 @@ void Snake::renderSnake(SDL_Surface* dest) {
 
 ### The End is Here
 
-![Snake](https://www.gamedev.net/uploads/monthly_05_2013/ccs-137814-0-34657600-1369527492.png)
+![Snake](https://github.com/RichardMarks/game-programming-snake/blob/master/content/ccs-137814-0-34657600-1369527492.png?raw=true)
 
 With that, our little Snake game is complete. Go ahead of build and run the project and you should get a dark green screen with a red & green snake that you can control using the arrow keys to collect yellow coins that randomly appear after you collect each one. If you bite yourself or hit a wall, you die, and nothing will be drawn but the dark green screen. Pressing the Enter key will restart the game, and pressing ESC will quit the game.
 
